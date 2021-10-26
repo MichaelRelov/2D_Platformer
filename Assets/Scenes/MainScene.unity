@@ -299,6 +299,8 @@ MonoBehaviour:
   _camera: {fileID: 519420031}
   _background: {fileID: 960656907}
   _middleground: {fileID: 434118}
+  _playerView: {fileID: 1740045182}
+  _spriteAnimationConfig: {fileID: 11400000, guid: 2d63cc793f2cd4002987e73ba646e473, type: 2}
 --- !u!4 &393229680
 Transform:
   m_ObjectHideFlags: 0
@@ -1039,6 +1041,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3584671900898309982, guid: 4c17a70bb88f34d09a93712400bc433c, type: 3}
   m_PrefabInstance: {fileID: 1622798640}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1740045182 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2651511797335989121, guid: 3d9b3f88f583f4fb18d953c45afb6a03, type: 3}
+  m_PrefabInstance: {fileID: 566027878309387035}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dff1846ef5b3548cd8c913b926e18988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1763855925
 GameObject:
   m_ObjectHideFlags: 0
@@ -1275,6 +1288,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1021095813}
     m_Modifications:
+    - target: {fileID: 1740045184, guid: 3d9b3f88f583f4fb18d953c45afb6a03, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 1468870128371451758, guid: 3d9b3f88f583f4fb18d953c45afb6a03, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1285,7 +1302,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1468870128371451758, guid: 3d9b3f88f583f4fb18d953c45afb6a03, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.53
+      value: -3.71
       objectReference: {fileID: 0}
     - target: {fileID: 1468870128371451758, guid: 3d9b3f88f583f4fb18d953c45afb6a03, type: 3}
       propertyPath: m_LocalPosition.z

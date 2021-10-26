@@ -92,6 +92,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1468870128371451758}
   - component: {fileID: 2651511797335989121}
+  - component: {fileID: 1740045184}
+  - component: {fileID: 1740045183}
   m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
@@ -127,3 +129,47 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _spriteRenderer: {fileID: 1574015506051887646}
+  _walkSpeed: 1
+  _animationSpeed: 3
+  _jumpStartSpeed: 1.5
+  _movingThresh: 0.1
+  _flyThresh: 0.4
+  _groundLevel: 0.4
+  _acceleration: -9.8
+--- !u!50 &1740045184
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8378877119237830043}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!70 &1740045183
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8378877119237830043}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0068359375, y: -0.11962855}
+  m_Size: {x: 0.47265625, y: 1.4033191}
+  m_Direction: 0
