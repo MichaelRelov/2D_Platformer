@@ -5,11 +5,11 @@ public class PlayerView : MonoBehaviour
     [SerializeField] private SpriteRenderer _spriteRenderer;
 
     [Header("Settings")]
-    [SerializeField] private float _walkSpeed = 1f;
-    [SerializeField] private float _animationSpeed = 3f;
-    [SerializeField] private float _jumpStartSpeed = 1.5f;
+    [SerializeField] private float _walkSpeed = 3f;
+    [SerializeField] private float _animationSpeed = 10f;
+    [SerializeField] private float _jumpStartSpeed = 8f;
     [SerializeField] private float _movingThresh = 0.1f; //for joystick
-    [SerializeField] private float _flyThresh = 0.4f;
+    [SerializeField] private float _flyThresh = 1f;
     [SerializeField] private float _groundLevel = 0.5f;
     [SerializeField] private float _acceleration = -9.8f;
 
