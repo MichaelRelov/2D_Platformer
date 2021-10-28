@@ -11,7 +11,7 @@ public class PlayerView : MonoBehaviour
     [SerializeField] private float _movingThresh = 0.1f; //for joystick
     [SerializeField] private float _flyThresh = 1f;
     [SerializeField] private float _groundLevel = 0.5f;
-    [SerializeField] private float _acceleration = -9.8f;
+    [SerializeField] private float _acceleration = -10f;
 
     public SpriteRenderer SpriteRenderer => _spriteRenderer;
 
